@@ -1,0 +1,19 @@
+{
+  "name": "emonpicommunicator",
+  "version": "1.0.0",
+  "description": "Simple draft for communicating with an Emon Pi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc *.ts && node index.js"
+  },
+  "author": "Brandon Lu",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "serialport": "^10.4.0"
+  }
+}
